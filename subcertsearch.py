@@ -25,7 +25,7 @@ if __name__ == "__main__":
         print("Usage: python dnscertsearch.py [domain]")
 
     try:
-        s = "abstr4l"
+        s = "estr3llas"
         domain = sys.argv[1]
         print("Searching for subdomains in {}...".format(str(domain)))
         print("Resolving DNS Records...")
