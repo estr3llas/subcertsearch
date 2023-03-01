@@ -22,13 +22,13 @@ def parsing(resp_text):
 
 if __name__ == "__main__":
     if len(sys.argv) == 1:
-        print("Usage: python dnscertsearch.py [domain]")
+        print("Usage: python subcertsearch.py [domain]")
 
     try:
         s = "estr3llas"
         domain = sys.argv[1]
-        print("Searching for subdomains in {}...".format(str(domain)))
-        print("Resolving DNS Records...")
+        print("[+]Searching for subdomains in {}...".format(str(domain)))
+        print("[+]Resolving DNS Records...")
 
         URL = "https://crt.sh/?q=" + str(domain) + "&output=json"
         req = request(URL)
