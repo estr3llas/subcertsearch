@@ -2,7 +2,16 @@
 A tool for searching subdomains based on their certificates
 
 # install
-git clone https://github.com/spyw4re/subcertsearch<br />
-cd subcertsearch<br />
-pip install -r requirements.txt<br />
+```sh
+# git clone the spyw4re's subcertsearch Repo
+git clone https://github.com/spyw4re/subcertsearch
+
+# cd into the subcertsearch dir
+cd subcertsearch
+
+# install (via pip) all the reqs in requirements.txt
+pip install -r requirements.txt
+
+# Execute the script
 python subcertsearch.py
+```
