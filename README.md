@@ -3,7 +3,7 @@ A tool for searching subdomains based on their certificates
 
 # install
 ```sh
-# git clone the spyw4re's subcertsearch Repo
+# git clone the subcertsearch Repo
 git clone https://github.com/spyw4re/subcertsearch
 
 # cd into the subcertsearch dir
